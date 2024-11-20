@@ -1,0 +1,13 @@
+.btn-enviar{
+    background-color: #8B9A44 !important;
+    border: none;
+    color: black;
+}
+
+input::placeholder, textarea::placeholder {
+    text-align: center;
+  }
+
+.form-control{
+    background-color: #8B9A4480 !important;
+}

@@ -1,0 +1,32 @@
+.custom-card {
+    background-color: #8B9A4480 !important;
+    border: none; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 0 1rem;
+    border-radius: 22px;
+    width: 300px;
+}
+
+.card-img-top {
+    width: 100%; 
+    min-width: 100%;
+    height: auto; 
+    padding: 15px;
+    border-radius: 20px;
+}
+
+.btn-size {
+    width: 60%; 
+    background-color: #8B9A44 !important;
+    border: none;
+    color: black;
+    font-weight: bold;
+}
+
+.price{
+    font-weight: bold;
+}
+
+.card:last-child {
+    margin-bottom: 80px; 
+}
