@@ -1,9 +1,6 @@
 import { Link } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './Navbar.css';
-import HomeIcon from '../assets/Inicio.png';
-import HelpIcon from '../assets/Ayuda.png';
-import CommentIcon from '../assets/Comentario.png';
 
 function Navbar() {
     return (
@@ -13,7 +10,7 @@ function Navbar() {
         <Link to="/" className="navbar-button text-success">
           <button className="btn btn-link">
             <img 
-              src={HomeIcon} 
+              src="/nav-icons/Inicio.png"
               alt="Inicio" 
               className="img-fluid" 
             />
@@ -23,7 +20,7 @@ function Navbar() {
         <Link to="/help" className="navbar-button text-success">
           <button className="btn btn-link">
             <img 
-              src={HelpIcon} 
+              src="/nav-icons/Ayuda.png" 
               alt="Información" 
               className="img-fluid" 
             />
@@ -33,7 +30,7 @@ function Navbar() {
         <Link to="/comment" className="navbar-button text-success">
           <button className="btn btn-link">
             <img 
-              src={CommentIcon} 
+              src="/nav-icons/Comentario.png" 
               alt="Comentario" 
               className="img-fluid" 
             />

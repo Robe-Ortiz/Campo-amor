@@ -1,3 +1,26 @@
-.imagen {
-    width: 300px;
+.housing-details{
+    padding-bottom: 60px;
 }
+#housing-image{
+    min-width: 100%;
+    border-bottom: 5px solid #8B9A44 !important; 
+}
+
+#title, #description, #services, #price{
+    background-color: #8B9A4480 !important;
+    border-bottom: 5px solid #8B9A44 !important; 
+}
+
+#services img {
+    width: 35px;
+}
+
+.btn-size {
+    width: 60%; 
+    background-color: #8B9A44 !important;
+    border: none;
+    color: black;
+    font-weight: bold;
+}
+
+
